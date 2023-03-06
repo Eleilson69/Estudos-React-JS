@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/global-estyles/index.css';
-import Home from '../src/components/templates/Home/Home';
+import { Home } from '../src/components/templates/Home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
