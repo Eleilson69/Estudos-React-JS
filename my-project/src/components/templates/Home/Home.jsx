@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import { Posts } from '../../Posts';
 
 import { loadPosts } from '../../../utils/load-posts';
@@ -87,3 +87,29 @@ export const Home = () => {
   );
 
 };
+
+// export class Home extends Component {
+//   state = {
+//     couter: 0
+//   }
+
+//   handleClick = () => {
+//     const { couter } = this.state
+
+//     this.setState((prevState, prevProps) => {
+
+//       return { couter: prevState.couter + prevProps.numberToIncrement}
+//     }, () => {
+//       console.log('POST', this.state.couter)
+//     })
+//   }
+
+//   render() {
+//     return (
+//       <div className='conteiner'>
+//         <h1>{this.state.couter}</h1>
+//         <button onClick={this.handleClick}>Increment</button>
+//       </div>
+//     );
+//   }
+// }
