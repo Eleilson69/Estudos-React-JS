@@ -48,7 +48,6 @@ export const Home = () => {
 
   useEffect(() => {
     handleloadPosts();
-    console.log('oi')
   }, []);
 
   return (
