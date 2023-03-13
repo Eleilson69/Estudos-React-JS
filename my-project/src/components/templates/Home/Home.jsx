@@ -12,7 +12,7 @@ export const Home = () => {
   const [posts, setPosts] = useState([]);
   const [allPosts, setAllPosts] = useState([]);
   const [page, setpage] = useState(0);
-  const [postsPerPage, setPostsPerPage] = useState(10);
+  const [postsPerPage, setPostsPerPage] = useState(5);
   const [searchValue, setSearchValue] = useState('');
 
   const handleloadPosts = async () => {
